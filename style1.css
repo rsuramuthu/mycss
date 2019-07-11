@@ -1,4 +1,12 @@
-.post-body.entry-content{text-align:center;}
+.post-body.entry-content{text-align:left;
+position:relative;
+
+top:-60px;
+background-color:Linen;
+}
+
+#ArchiveList{margin-left:3%;}
+
 .region-inner.tabs-inner,.columns.fauxcolumns,#crosscol.tabs.section{margin:0;padding:0;}
 
 .blog-feeds,.feed-links{display:none;}
@@ -17,524 +25,195 @@
 
 .navbar,.header,.post-title.entry-title{display:none;}
 .region-inner.tabs-inner{margin:0;padding:0;}
+.quickedit{display:none;}
 
-#post-body-112017579193165132.post-body.entry-content{position:relative;top:-20px;z-index:+2;}
+.jssocials-share-link { border-radius: 50%; }
+#shareIcons{font-size:10pt;}
 
-#HTML1.widget{margin:-5px 0 0 0;padding:0;border:0;}
+.content-inner,.content-outer{margin:0;padding:0;}
+.tabs-outer{margin:0;padding:0;}
 
-.content-inner{margin:0;padding:0;}
-.tabs-outer{margin:0;padding:0;z-index:+1;}
-.post-body.entry-content{background-color:white;}
-.region-inner.main-inner{padding:0;margin:0;}#post-body-6383594754779054335.post-body.entry-content{position:absolute;
-top:-30px;
-background-color:white;
-z-index:+7;}
+.region-inner.main-inner{padding:0;margin:0;}
 .column-center-outer{padding:0px !important;}
 .column-center-inner{margin:0px !important;}
 
-.pageTabs>a:link{text-decoration:none;}
 
-@media screen and (max-width: 750px) {
-   .di{display:none;}
-.mi{display:block;}
+h2.title{display:none;}
+.contentET>div>span:nth-of-child(n){font-family: 'Heebo', sans-serif;
+color:white;
+font-size:15pt;
+text-align:left;
+}
+
+.contentT1>span, .contentT2>span, .contentT3>span, .contentT4>span {
+font-family: 'Meera Inimai', sans-serif;
+color:white;
+font-size:15pt;
+text-align:left;
+}
+
+body,html{background-color:linen;height:500px;} 
+
+
+
+
+
+.myName{margin:20px 10px;}
+
+#post-body-8555118298189319006.post-body.entry-content{display:none;}
+
+
+@media screen and (max-width: 390px){
+
+#HTML6.widget{position:absolute;top:160px;left:80px}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:absolute;z-index:+8;top:190px;right:10px;}
+.cntct>span,.cntct> a:link>span{color:brown !important;}
+.tabs-outer{background-color:brown;position:relative;top:-30px;height:180px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:left;display:inline-block;position:relative;top:2px;margin:10px 20px;}
+.myNameTam{float:left;display:inline-block;margin:10px 20px;}
+.hr{display:block;position:relative;top:-80px;}
+#PageList1.widget{background-image: linear-gradient(#ffff99,khaki)}
+h2{display:none;}
+
+
+
+.clear{display:none;}
+
+.cntct>span{text-align:center;margin:0 auto;width:100%;font-size:10pt;}
+.sub{margin:0 auto;display:inline-block;width:100%;}
+
+.fstttl{width:60%;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px;text-align:center;}
+
+.sprttl{width:75%;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px;text-align:center;}
+
+.isprttl>span{font-size:13pt;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:13pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:90%;margin:5px auto;}
+.arw>span{color: white; font-weight: bold; text-align: center;font-size:20pt;}
+.arw{float:right;position:relative;left:-30px;top:-100px;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:13pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:13pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.rph{margin:20px 0;background-color:#ee5200 !important;}
+
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:13pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+#PageList1.widget{display:none;}
+
+.bg{background-color:#ffff99;height:20px;position:relative;top:-25px;width:100%;}
+
+
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+
+}
+
+a:link{text-decoration:none;}
+
+#shareIcons{
+
+float:right;
+font-size:10pt;
+position:relative;
+top:0px;
+margin:0 20px 0 0;
 }
 
 
 
-@media screen and (min-width: 751px) {
-   .di{display:block;}
-.mi{display:none;}
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 2px;
+    font-size: 14pt;
+    border: 2px solid #434343;
+    cursor: pointer;
 }
 
-#Blog1.widget,#mainc.main.section,.mainMain,.mainMainMain,.column-center-inner,.column-center-outer,.columns-inner,fauxcolumn-outer.fauxcolumn-center-outer,.columns.fauxcolumns,.post-body.entry-content,blog-posts.hfeed.fauxcolumn-outer.fauxcolumn-left-outer,.fauxcolumn-inner.fauxcolumn-left-inner,.fauxborder-left.main-fauxborder-left,.main-outer{padding:0;margin:0;}
 
-
-@keyframes slideshowi{
-
-
-0% {background: url("https://1.bp.blogspot.com/-dpuINUYS2fA/WOGLqN5XQcI/AAAAAAAAE5U/ZBt-wmp4OqIpam5CgIiXe-ab7UeI-mFAwCLcB/s1600/flt1.jpg");
-background-repeat: no-repeat;background-size: 190px 425px;}
-
-25% {background: url("https://2.bp.blogspot.com/-a33_0iTEUFo/WOGLqH1EqJI/AAAAAAAAE5Y/a6Jp1sLGjuANbXc7uE5g6Dtpe-_FTB6LwCLcB/s1600/flt2.jpg");
-background-repeat: no-repeat;background-size: 190px 425px;}
-
-50% {background: url("https://3.bp.blogspot.com/-FO3wo91ycDo/WOGLqKZLnfI/AAAAAAAAE5c/IIaUgGirp48Bwh4YoQ7tGU0Musamq-bYwCLcB/s1600/flt3.jpg");
-background-repeat: no-repeat;background-size: 190px 425px;}
-
-75% {background: url("https://4.bp.blogspot.com/-kK8LuA3Dp9o/WOGLqyGTWrI/AAAAAAAAE5g/ntQHX7ZzCh0_wX6Z8rXRVf6cjlhDw3bFACLcB/s1600/flt4.jpg");
-background-repeat: no-repeat;background-size: 190px 425px;}
-
-
-
-
-100%  {background: url("https://2.bp.blogspot.com/-jeGeocSw_Q8/WOH1CtrYm9I/AAAAAAAAE7Y/vxm23TDah2ktwTfZvQUQo-OhkVhSCg3WACLcB/s1600/IFBTL.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
 }
 
-.slidei{
-animation-name: slideshowi;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
- animation-direction: alternate;
 
-
+.dropdown {
+    position:absolute;
+    display: inline-block;
+top:-50px;left:10px;
+z-index:+5;
+}
 
 
 }
 
 
-
-@keyframes slideshow{
-
-
-0% {background: url("https://4.bp.blogspot.com/-0owHHUGZXQw/WOJf--HAEEI/AAAAAAAAE7o/1wLi3p4obd4NFIdodWLDLlcYcbK3s7YPQCLcB/s1600/tlRdGd2.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
-14% {background: url("https://1.bp.blogspot.com/-qiHjIyplbFI/WOJgmRh-uVI/AAAAAAAAE7s/-oTth-urcw0QDCW5qserSK5iVaFtMwnXQCLcB/s1600/flRdGd1.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
-28% {background: url("https://4.bp.blogspot.com/-ovYTUz-AcHM/WOJhI9p34rI/AAAAAAAAE7w/2mFzfKZJ8owLfV_m8mrjD86rT9zcvoJhQCLcB/s1600/tlBlkGd4.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
-42% {background: url("https://2.bp.blogspot.com/-7sVKExJwcvo/WOJhqzrcMpI/AAAAAAAAE70/AczsNQtl3oQncJG9bdTuve9VRhfSfClwACLcB/s1600/sdMrnGd6.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
-56%  {background: url("https://1.bp.blogspot.com/-PckjEX_De5c/WOJiMJsJYAI/AAAAAAAAE74/ruE6w-8voTQ29vHiChGJ0yffOV7nAVwdwCLcB/s1600/ddMrnGd7.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
-70%  {background: url("https://4.bp.blogspot.com/-PZqDLZnDdSo/WOJiqAKyeVI/AAAAAAAAE78/mzbzBqlDrxwswCsUZIhW6-enbt_OTnyUQCLcB/s1600/sbsGd9.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
-85%  {background: url("https://1.bp.blogspot.com/-EN822SecMlU/WOJjMqBzzeI/AAAAAAAAE8A/bw5mUITjfikDMJFRGaMo7GcSq4MV8m1sgCLcB/s1600/ddblgGd8.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
-
-100%  {background: url("https://3.bp.blogspot.com/-xJ-TCcYsPww/WOJjwPxLAsI/AAAAAAAAE8E/IKqa_rc2QvsYiFVVh1otF4m3nCynVh2nQCLcB/s1600/mwRdGd10.jpg");
-background-repeat: no-repeat;background-size: 200px 425px;}
-
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-.slide{
-animation-name: slideshow;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
- animation-direction: alternate;
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.show {display:block;}
+
+.contentET{
+
+margin:0 auto;
+width:95%;
+}
+
+ 
+
+#main-slider.slider{
+	display:none;
+	
 }
 
 
 
 
-@keyframes scrltxt{
 
-0%		{position:relative;top:10px;	left:	100%;}
-0.25%		{position:relative;top:10px;	left:	99.5%;}
-0.5%		{position:relative;top:10px;	left:	99%;}
-0.75%		{position:relative;top:10px;	left:	98.5%;}
-1%		{position:relative;top:10px;	left:	98%;}
-1.25%		{position:relative;top:10px;	left:	97.5%;}
-1.5%		{position:relative;top:10px;	left:	97%;}
-1.75%		{position:relative;top:10px;	left:	96.5%;}
-2%		{position:relative;top:10px;	left:	96%;}
-2.25%		{position:relative;top:10px;	left:	95.5%;}
-2.5%		{position:relative;top:10px;	left:	95%;}
-2.75%		{position:relative;top:10px;	left:	94.5%;}
-3%		{position:relative;top:10px;	left:	94%;}
-3.25%		{position:relative;top:10px;	left:	93.5%;}
-3.5%		{position:relative;top:10px;	left:	93%;}
-3.75%		{position:relative;top:10px;	left:	92.5%;}
-4%		{position:relative;top:10px;	left:	92%;}
-4.25%		{position:relative;top:10px;	left:	91.5%;}
-4.5%		{position:relative;top:10px;	left:	91%;}
-4.75%		{position:relative;top:10px;	left:	90.5%;}
-5%		{position:relative;top:10px;	left:	90%;}
-5.25%		{position:relative;top:10px;	left:	89.5%;}
-5.5%		{position:relative;top:10px;	left:	89%;}
-5.75%		{position:relative;top:10px;	left:	88.5%;}
-6%	{position:relative;top:10px;	left:	88%;}
-6.25%		{position:relative;top:10px;	left:	87.5%;}
-6.5%		{position:relative;top:10px;	left:	87%;}
-6.75%		{position:relative;top:10px;	left:	86.5%;}
-7%		{position:relative;top:10px;	left:	86%;}
-7.25%		{position:relative;top:10px;	left:	85.5%;}
-7.5%		{position:relative;top:10px;	left:	85%;}
-7.75%		{position:relative;top:10px;	left:	84.5%;}
-8%		{position:relative;top:10px;	left:	84%;}
-8.25%		{position:relative;top:10px;	left:	83.5%;}
-8.5%		{position:relative;top:10px;	left:	83%;}
-8.75%		{position:relative;top:10px;	left:	82.5%;}
-9%		{position:relative;top:10px;	left:	82%;}
-9.25%		{position:relative;top:10px;	left:	81.5%;}
-9.5%		{position:relative;top:10px;	left:	81%;}
-9.75%		{position:relative;top:10px;	left:	80.5%;}
-10%		{position:relative;top:10px;	left:	80%;}
-10.25%		{position:relative;top:10px;	left:	79.5%;}
-10.5%		{position:relative;top:10px;	left:	79%;}
-10.75%		{position:relative;top:10px;	left:	78.5%;}
-11%		{position:relative;top:10px;	left:	78%;}
-11.25%		{position:relative;top:10px;	left:	77.5%;}
-11.5%		{position:relative;top:10px;	left:	77%;}
-11.75%		{position:relative;top:10px;	left:	76.5%;}
-12%             {position:relative;top:10px;	left:	76%;}
-12.25%		{position:relative;top:10px;	left:	75.5%;}
-12.5%		{position:relative;top:10px;	left:	75%;}
-12.75%		{position:relative;top:10px;	left:	74.5%;}
-13%		{position:relative;top:10px;	left:	74%;}
-13.25%		{position:relative;top:10px;	left:	73.5%;}
-13.5%		{position:relative;top:10px;	left:	73%;}
-13.75%		{position:relative;top:10px;	left:	72.5%;}
-14%		{position:relative;top:10px;	left:	72%;}
-14.25%		{position:relative;top:10px;	left:	71.5%;}
-14.5%		{position:relative;top:10px;	left:	71%;}
-14.75%		{position:relative;top:10px;	left:	70.5%;}
-15%		{position:relative;top:10px;	left:	70%;}
-15.25%		{position:relative;top:10px;	left:	69.5%;}
-15.5%		{position:relative;top:10px;	left:	69%;}
-15.75%		{position:relative;top:10px;	left:	68.5%;}
-16%		{position:relative;top:10px;	left:	68%;}
-16.25%		{position:relative;top:10px;	left:	67.5%;}
-16.5%		{position:relative;top:10px;	left:	67%;}
-16.75%		{position:relative;top:10px;	left:	66.5%;}
-17%		{position:relative;top:10px;	left:	66%;}
-17.25%		{position:relative;top:10px;	left:	65.5%;}
-17.5%		{position:relative;top:10px;	left:	65%;}
-17.75%		{position:relative;top:10px;	left:	64.5%;}
-18%		{position:relative;top:10px;	left:	64%;}
-18.25%		{position:relative;top:10px;	left:	63.5%;}
-18.5%		{position:relative;top:10px;	left:	63%;}
-18.75%		{position:relative;top:10px;	left:	62.5%;}
-19%		{position:relative;top:10px;	left:	62%;}
-19.25%		{position:relative;top:10px;	left:	61.5%;}
-19.5%		{position:relative;top:10px;	left:	61%;}
-19.75%		{position:relative;top:10px;	left:	60.5%;}
-20%		{position:relative;top:10px;	left:	60%;}
-20.25%		{position:relative;top:10px;	left:	59.5%;}
-20.5%		{position:relative;top:10px;	left:	59%;}
-20.75%		{position:relative;top:10px;	left:	58.5%;}
-21%		{position:relative;top:10px;	left:	58%;}
-21.25%		{position:relative;top:10px;	left:	57.5%;}
-21.5%		{position:relative;top:10px;	left:	57%;}
-21.75%		{position:relative;top:10px;	left:	56.5%;}
-22%		{position:relative;top:10px;	left:	56%;}
-22.25%		{position:relative;top:10px;	left:	55.5%;}
-22.5%		{position:relative;top:10px;	left:	55%;}
-22.75%		{position:relative;top:10px;	left:	54.5%;}
-23%		{position:relative;top:10px;	left:	54%;}
-23.25%		{position:relative;top:10px;	left:	53.5%;}
-23.5%		{position:relative;top:10px;	left:	53%;}
-23.75%		{position:relative;top:10px;	left:	52.5%;}
-24%		{position:relative;top:10px;	left:	52%;}
-24.25%		{position:relative;top:10px;	left:	51.5%;}
-24.5%		{position:relative;top:10px;	left:	51%;}
-24.75%		{position:relative;top:10px;	left:	50.5%;}
-25%		{position:relative;top:10px;	left:	50%;}
-25.25%		{position:relative;top:10px;	left:	49.5%;}
-25.5%		{position:relative;top:10px;	left:	49%;}
-25.75%		{position:relative;top:10px;	left:	48.5%;}
-26%		{position:relative;top:10px;	left:	48%;}
-26.25%		{position:relative;top:10px;	left:	47.5%;}
-26.5%		{position:relative;top:10px;	left:	47%;}
-26.75%		{position:relative;top:10px;	left:	46.5%;}
-27%		{position:relative;top:10px;	left:	46%;}
-27.25%		{position:relative;top:10px;	left:	45.5%;}
-27.5%		{position:relative;top:10px;	left:	45%;}
-27.75%		{position:relative;top:10px;	left:	44.5%;}
-28%		{position:relative;top:10px;	left:	44%;}
-28.25%		{position:relative;top:10px;	left:	43.5%;}
-28.5%		{position:relative;top:10px;	left:	43%;}
-28.75%		{position:relative;top:10px;	left:	42.5%;}
-29%		{position:relative;top:10px;	left:	42%;}
-29.25%		{position:relative;top:10px;	left:	41.5%;}
-29.5%		{position:relative;top:10px;	left:	41%;}
-29.75%		{position:relative;top:10px;	left:	40.5%;}
-30%		{position:relative;top:10px;	left:	40%;}
-30.25%		{position:relative;top:10px;	left:	39.5%;}
-30.5%		{position:relative;top:10px;	left:	39%;}
-30.75%		{position:relative;top:10px;	left:	38.5%;}
-31%		{position:relative;top:10px;	left:	38%;}
-31.25%		{position:relative;top:10px;	left:	37.5%;}
-31.5%		{position:relative;top:10px;	left:	37%;}
-31.75%		{position:relative;top:10px;	left:	36.5%;}
-32%	{position:relative;top:10px;	left:	36%;}
-32.25%		{position:relative;top:10px;	left:	35.5%;}
-32.5%		{position:relative;top:10px;	left:	35%;}
-32.75%		{position:relative;top:10px;	left:	34.5%;}
-33%		{position:relative;top:10px;	left:	34%;}
-33.25%		{position:relative;top:10px;	left:	33.5%;}
-33.5%		{position:relative;top:10px;	left:	33%;}
-33.75%		{position:relative;top:10px;	left:	32.5%;}
-34%		{position:relative;top:10px;	left:	32%;}
-34.25%		{position:relative;top:10px;	left:	31.5%;}
-34.5%		{position:relative;top:10px;	left:	31%;}
-34.75%		{position:relative;top:10px;	left:	30.5%;}
-35%		{position:relative;top:10px;	left:	30%;}
-35.25%		{position:relative;top:10px;	left:	29.5%;}
-35.5%		{position:relative;top:10px;	left:	29%;}
-35.75%		{position:relative;top:10px;	left:	28.5%;}
-36%		{position:relative;top:10px;	left:	28%;}
-36.25%		{position:relative;top:10px;	left:	27.5%;}
-36.5%		{position:relative;top:10px;	left:	27%;}
-36.75%		{position:relative;top:10px;	left:	26.5%;}
-37%		{position:relative;top:10px;	left:	26%;}
-37.25%		{position:relative;top:10px;	left:	25.5%;}
-37.5%		{position:relative;top:10px;	left:	25%;}
-37.75%		{position:relative;top:10px;	left:	24.5%;}
-38%		{position:relative;top:10px;	left:	24%;}
-38.25%		{position:relative;top:10px;	left:	23.5%;}
-38.5%		{position:relative;top:10px;	left:	23%;}
-38.75%		{position:relative;top:10px;	left:	22.5%;}
-39%	{position:relative;top:10px;	left:	22%;}
-39.25%		{position:relative;top:10px;	left:	21.5%;}
-39.5%		{position:relative;top:10px;	left:	21%;}
-39.75%		{position:relative;top:10px;	left:	20.5%;}
-40%		{position:relative;top:10px;	left:	20%;}
-40.25%		{position:relative;top:10px;	left:	19.5%;}
-40.5%		{position:relative;top:10px;	left:	19%;}
-40.75%		{position:relative;top:10px;	left:	18.5%;}
-41%		{position:relative;top:10px;	left:	18%;}
-41.25%		{position:relative;top:10px;	left:	17.5%;}
-41.5%		{position:relative;top:10px;	left:	17%;}
-41.75%		{position:relative;top:10px;	left:	16.5%;}
-42%		{position:relative;top:10px;	left:	16%;}
-42.25%		{position:relative;top:10px;	left:	15.5%;}
-42.5%		{position:relative;top:10px;	left:	15%;}
-42.75%		{position:relative;top:10px;	left:	14.5%;}
-43%		{position:relative;top:10px;	left:	14%;}
-43.25%		{position:relative;top:10px;	left:	13.5%;}
-43.5%		{position:relative;top:10px;	left:	13%;}
-43.75%		{position:relative;top:10px;	left:	12.5%;}
-44%		{position:relative;top:10px;	left:	12%;}
-44.25%		{position:relative;top:10px;	left:	11.5%;}
-44.5%		{position:relative;top:10px;	left:	11%;}
-44.75%		{position:relative;top:10px;	left:	10.5%;}
-45%		{position:relative;top:10px;	left:	10%;}
-45.25%		{position:relative;top:10px;	left:	9.5%;}
-45.5%		{position:relative;top:10px;	left:	9%;}
-45.75%		{position:relative;top:10px;	left:	8.5%;}
-46%		{position:relative;top:10px;	left:	8%;}
-46.25%		{position:relative;top:10px;	left:	7.5%;}
-46.5%		{position:relative;top:10px;	left:	7%;}
-46.75%		{position:relative;top:10px;	left:	6.5%;}
-47%		{position:relative;top:10px;	left:	6%;}
-47.25%		{position:relative;top:10px;	left:	5.5%;}
-47.5%		{position:relative;top:10px;	left:	5%;}
-47.75%		{position:relative;top:10px;	left:	4.5%;}
-48%		{position:relative;top:10px;	left:	4%;}
-48.25%		{position:relative;top:10px;	left:	3.5%;}
-48.5%		{position:relative;top:10px;	left:	3%;}
-48.75%		{position:relative;top:10px;	left:	2.5%;}
-49%		{position:relative;top:10px;	left:	2%;}
-49.25%		{position:relative;top:10px;	left:	1.5%;}
-49.5%		{position:relative;top:10px;	left:	1%;}
-49.75%		{position:relative;top:10px;	left:	0.5%;}
-50%		{position:relative;top:10px;	left:	0%;}
-50.25%		{position:relative;top:10px;	left:	-0.5%;}
-50.5%	{position:relative;top:10px;	left:	-1%;}
-50.75%		{position:relative;top:10px;	left:	-1.5%;}
-51%		{position:relative;top:10px;	left:	-2%;}
-51.25%		{position:relative;top:10px;	left:	-2.5%;}
-51.5%		{position:relative;top:10px;	left:	-3%;}
-51.75%		{position:relative;top:10px;	left:	-3.5%;}
-52%		{position:relative;top:10px;	left:	-4%;}
-52.25%		{position:relative;top:10px;	left:	-4.5%;}
-52.5%		{position:relative;top:10px;	left:	-5%;}
-52.75%		{position:relative;top:10px;	left:	-5.5%;}
-53%		{position:relative;top:10px;	left:	-6%;}
-53.25%		{position:relative;top:10px;	left:	-6.5%;}
-53.5%	{position:relative;top:10px;	left:	-7%;}
-53.75	%		{position:relative;top:10px;	left:	-7.5%;}
-54%	{position:relative;top:10px;	left:	-8%;}
-54.25%		{position:relative;top:10px;	left:	-8.5%;}
-54.5%	{position:relative;top:10px;	left:	-9%;}
-54.75%		{position:relative;top:10px;	left:	-9.5%;}
-55%		{position:relative;top:10px;	left:	-10%;}
-55.25%		{position:relative;top:10px;	left:	-10.5%;}
-55.5%		{position:relative;top:10px;	left:	-11%;}
-55.75%		{position:relative;top:10px;	left:	-11.5%;}
-56%		{position:relative;top:10px;	left:	-12%;}
-56.25%		{position:relative;top:10px;	left:	-12.5%;}
-56.5%		{position:relative;top:10px;	left:	-13%;}
-56.75%		{position:relative;top:10px;	left:	-13.5%;}
-57%		{position:relative;top:10px;	left:	-14%;}
-57.25%		{position:relative;top:10px;	left:	-14.5%;}
-57.5%		{position:relative;top:10px;	left:	-15%;}
-57.75%		{position:relative;top:10px;	left:	-15.5%;}
-58%		{position:relative;top:10px;	left:	-16%;}
-58.25%		{position:relative;top:10px;	left:	-16.5%;}
-58.5%		{position:relative;top:10px;	left:	-17%;}
-58.75%		{position:relative;top:10px;	left:	-17.5%;}
-59%		{position:relative;top:10px;	left:	-18%;}
-59.25%		{position:relative;top:10px;	left:	-18.5%;}
-59.5%		{position:relative;top:10px;	left:	-19%;}
-59.75%		{position:relative;top:10px;	left:	-19.5%;}
-60%		{position:relative;top:10px;	left:	-20%;}
-60.25%		{position:relative;top:10px;	left:	-20.5%;}
-60.5%		{position:relative;top:10px;	left:	-21%;}
-60.75%		{position:relative;top:10px;	left:	-21.5%;}
-61%		{position:relative;top:10px;	left:	-22%;}
-61.25%		{position:relative;top:10px;	left:	-22.5%;}
-61.5%		{position:relative;top:10px;	left:	-23%;}
-61.75%		{position:relative;top:10px;	left:	-23.5%;}
-62%		{position:relative;top:10px;	left:	-24%;}
-62.25%		{position:relative;top:10px;	left:	-24.5%;}
-62.5%		{position:relative;top:10px;	left:	-25%;}
-62.75%		{position:relative;top:10px;	left:	-25.5%;}
-63%		{position:relative;top:10px;	left:	-26%;}
-63.25%		{position:relative;top:10px;	left:	-26.5%;}
-63.5%		{position:relative;top:10px;	left:	-27%;}
-63.75%		{position:relative;top:10px;	left:	-27.5%;}
-64%		{position:relative;top:10px;	left:	-28%;}
-64.25%		{position:relative;top:10px;	left:	-28.5%;}
-64.5%		{position:relative;top:10px;	left:	-29%;}
-64.75%		{position:relative;top:10px;	left:	-29.5%;}
-65%		{position:relative;top:10px;	left:	-30%;}
-65.25%		{position:relative;top:10px;	left:	-30.5%;}
-65.5%		{position:relative;top:10px;	left:	-31%;}
-65.75%		{position:relative;top:10px;	left:	-31.5%;}
-66%		{position:relative;top:10px;	left:	-32%;}
-66.25%		{position:relative;top:10px;	left:	-32.5%;}
-66.5%		{position:relative;top:10px;	left:	-33%;}
-66.75%		{position:relative;top:10px;	left:	-33.5%;}
-67%		{position:relative;top:10px;	left:	-34%;}
-67.25%		{position:relative;top:10px;	left:	-34.5%;}
-67.5%		{position:relative;top:10px;	left:	-35%;}
-67.75%		{position:relative;top:10px;	left:	-35.5%;}
-68%		{position:relative;top:10px;	left:	-36%;}
-68.25%		{position:relative;top:10px;	left:	-36.5%;}
-68.5%		{position:relative;top:10px;	left:	-37%;}
-68.75%		{position:relative;top:10px;	left:	-37.5%;}
-69%	{position:relative;top:10px;	left:	-38%;}
-69.25%		{position:relative;top:10px;	left:	-38.5%;}
-69.5%		{position:relative;top:10px;	left:	-39%;}
-69.75%		{position:relative;top:10px;	left:	-39.5%;}
-70%		{position:relative;top:10px;	left:	-40%;}
-70.25%		{position:relative;top:10px;	left:	-40.5%;}
-70.5%		{position:relative;top:10px;	left:	-41%;}
-70.75%		{position:relative;top:10px;	left:	-41.5%;}
-71%		{position:relative;top:10px;	left:	-42%;}
-71.25%		{position:relative;top:10px;	left:	-42.5%;}
-71.5%		{position:relative;top:10px;	left:	-43%;}
-71.75%		{position:relative;top:10px;	left:	-43.5%;}
-72%		{position:relative;top:10px;	left:	-44%;}
-72.25%		{position:relative;top:10px;	left:	-44.5%;}
-72.5%		{position:relative;top:10px;	left:	-45%;}
-72.75%		{position:relative;top:10px;	left:	-45.5%;}
-73%		{position:relative;top:10px;	left:	-46%;}
-73.25%		{position:relative;top:10px;	left:	-46.5%;}
-73.5%		{position:relative;top:10px;	left:	-47%;}
-73.75%		{position:relative;top:10px;	left:	-47.5%;}
-74%		{position:relative;top:10px;	left:	-48%;}
-74.25%		{position:relative;top:10px;	left:	-48.5%;}
-74.5%		{position:relative;top:10px;	left:	-49%;}
-74.75%		{position:relative;top:10px;	left:	-49.5%;}
-75%		{position:relative;top:10px;	left:	-50%;}
-75.25%		{position:relative;top:10px;	left:	-50.5%;}
-75.5%		{position:relative;top:10px;	left:	-51%;}
-75.75%		{position:relative;top:10px;	left:	-51.5%;}
-76%		{position:relative;top:10px;	left:	-52%;}
-76.25%		{position:relative;top:10px;	left:	-52.5%;}
-76.5%		{position:relative;top:10px;	left:	-53%;}
-76.75%		{position:relative;top:10px;	left:	-53.5%;}
-77%	{position:relative;top:10px;	left:	-54%;}
-77.25%		{position:relative;top:10px;	left:	-54.5%;}
-77.5%		{position:relative;top:10px;	left:	-55%;}
-77.75%		{position:relative;top:10px;	left:	-55.5%;}
-78%		{position:relative;top:10px;	left:	-56%;}
-78.25%		{position:relative;top:10px;	left:	-56.5%;}
-78.5%		{position:relative;top:10px;	left:	-57%;}
-78.75%		{position:relative;top:10px;	left:	-57.5%;}
-79%		{position:relative;top:10px;	left:	-58%;}
-79.25%		{position:relative;top:10px;	left:	-58.5%;}
-79.5%		{position:relative;top:10px;	left:	-59%;}
-79.75%		{position:relative;top:10px;	left:	-59.5%;}
-80%	{position:relative;top:10px;	left:	-60%;}
-80.25%		{position:relative;top:10px;	left:	-60.5%;}
-80.5%		{position:relative;top:10px;	left:	-61%;}
-80.75%		{position:relative;top:10px;	left:	-61.5%;}
-81%		{position:relative;top:10px;	left:	-62%;}
-81.25%		{position:relative;top:10px;	left:	-62.5%;}
-81.5%		{position:relative;top:10px;	left:	-63%;}
-81.75%		{position:relative;top:10px;	left:	-63.5%;}
-82%		{position:relative;top:10px;	left:	-64%;}
-82.25%		{position:relative;top:10px;	left:	-64.5%;}
-82.5%		{position:relative;top:10px;	left:	-65%;}
-82.75%		{position:relative;top:10px;	left:	-65.5%;}
-83%		{position:relative;top:10px;	left:	-66%;}
-83.25%		{position:relative;top:10px;	left:	-66.5%;}
-83.5%		{position:relative;top:10px;	left:	-67%;}
-83.75%		{position:relative;top:10px;	left:	-67.5%;}
-84%		{position:relative;top:10px;	left:	-68%;}
-84.25%		{position:relative;top:10px;	left:	-68.5%;}
-84.5%		{position:relative;top:10px;	left:	-69%;}
-84.75%		{position:relative;top:10px;	left:	-69.5%;}
-85%		{position:relative;top:10px;	left:	-70%;}
-85.25%		{position:relative;top:10px;	left:	-70.5%;}
-85.5%		{position:relative;top:10px;	left:	-71%;}
-85.75%		{position:relative;top:10px;	left:	-71.5%;}
-86%		{position:relative;top:10px;	left:	-72%;}
-86.25%		{position:relative;top:10px;	left:	-72.5%;}
-86.5%		{position:relative;top:10px;	left:	-73%;}
-86.75%		{position:relative;top:10px;	left:	-73.5%;}
-87%		{position:relative;top:10px;	left:	-74%;}
-87.25%		{position:relative;top:10px;	left:	-74.5%;}
-87.5%		{position:relative;top:10px;	left:	-75%;}
-87.75%		{position:relative;top:10px;	left:	-75.5%;}
-88%		{position:relative;top:10px;	left:	-76%;}
-88.25%		{position:relative;top:10px;	left:	-76.5%;}
-88.5%		{position:relative;top:10px;	left:	-77%;}
-88.75%		{position:relative;top:10px;	left:	-77.5%;}
-89%		{position:relative;top:10px;	left:	-78%;}
-89.25%		{position:relative;top:10px;	left:	-78.5%;}
-89.5%		{position:relative;top:10px;	left:	-79%;}
-89.75%		{position:relative;top:10px;	left:	-79.5%;}
-90%		{position:relative;top:10px;	left:	-80%;}
-90.25%		{position:relative;top:10px;	left:	-80.5%;}
-90.5%		{position:relative;top:10px;	left:	-81%;}
-90.75%		{position:relative;top:10px;	left:	-81.5%;}
-91%		{position:relative;top:10px;	left:	-82%;}
-91.25%		{position:relative;top:10px;	left:	-82.5%;}
-91.5%		{position:relative;top:10px;	left:	-83%;}
-91.75%		{position:relative;top:10px;	left:	-83.5%;}
-92%		{position:relative;top:10px;	left:	-84%;}
-92.25%		{position:relative;top:10px;	left:	-84.5%;}
-92.5%		{position:relative;top:10px;	left:	-85%;}
-92.75%		{position:relative;top:10px;	left:	-85.5%;}
-93%		{position:relative;top:10px;	left:	-86%;}
-93.25%		{position:relative;top:10px;	left:	-86.5%;}
-93.5%		{position:relative;top:10px;	left:	-87%;}
-93.75%		{position:relative;top:10px;	left:	-87.5%;}
-94%		{position:relative;top:10px;	left:	-88%;}
-94.25%		{position:relative;top:10px;	left:	-88.5%;}
-94.5%		{position:relative;top:10px;	left:	-89%;}
-94.75%		{position:relative;top:10px;	left:	-89.5%;}
-95%		{position:relative;top:10px;	left:	-90%;}
-95.25%		{position:relative;top:10px;	left:	-90.5%;}
-95.5%		{position:relative;top:10px;	left:	-91%;}
-95.75%		{position:relative;top:10px;	left:	-91.5%;}
-96%		{position:relative;top:10px;	left:	-92%;}
-96.25%		{position:relative;top:10px;	left:	-92.5%;}
-96.5%		{position:relative;top:10px;	left:	-93%;}
-96.75%		{position:relative;top:10px;	left:	-93.5%;}
-97%		{position:relative;top:10px;	left:	-94%;}
-97.25%		{position:relative;top:10px;	left:	-94.5%;}
-97.5%		{position:relative;top:10px;	left:	-95%;}
-97.75%		{position:relative;top:10px;	left:	-95.5%;}
-98%		{position:relative;top:10px;	left:	-96%;}
-98.25%		{position:relative;top:10px;	left:	-96.5%;}
-98.5%		{position:relative;top:10px;	left:	-97%;}
-98.75%		{position:relative;top:10px;	left:	-97.5%;}
-99%		{position:relative;top:10px;	left:	-98%;}
-99.25%		{position:relative;top:10px;	left:	-98.5%;}
-99.5%		{position:relative;top:10px;	left:	-99%;}
-99.75%		{position:relative;top:10px;	left:	-99.5%;}
-100%		{position:relative;top:10px;	left:	-100%;}
+#shareIcons{
+
+float:right;
+
+
+background-color: rgba(255, 255, 255, 0);
+margin:0 5px 0 0;
+font-size:10pt !important;
 
 }
-
-.scrl{
-animation-name: scrltxt;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
- animation-direction: normal;
 
 
 
@@ -542,4 +221,1086 @@ animation-name: scrltxt;
 }
 
 
-#post-body-9213253513522347153.post-body.entry-content{position:absolute;top:-30px;left:0px;width:100%;background-color:white;z-index:+7;}
+
+
+@media screen and (min-width: 391px) and (max-width: 435px){
+
+#HTML4.widget{width:100px;}
+#HTML6.widget{position:absolute;top:40px;left:80px}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:absolute;z-index:+8;top:40px;right:10px;}
+.cntct>span,.cntct> a:link>span{color:brown !important;}
+.tabs-outer{background-color:brown;position:relative;top:-30px;height:70px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:right;display:inline-block;position:relative;top:2px;margin-left:5px;}
+.myNameTam{float:left;display:inline-block;margin-right:5px;}
+.hr{display:none;}
+#PageList1.widget{background-image: linear-gradient(#ffff99,khaki)}
+h2{display:none;}
+
+
+
+.clear{display:none;}
+
+.cntct>span{text-align:center;margin:0 auto;width:100%;font-size:10pt;}
+.sub{margin:0 auto;display:inline-block;width:100%;}
+
+.fstttl{width:60%;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px;text-align:center;}
+
+.sprttl{width:75%;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px;text-align:center;}
+
+.isprttl>span{font-size:9pt;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:9pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:9pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:90%;margin:5px auto;}
+.arw>span{color: white; font-weight: bold; text-align: center;font-size:20pt;}
+.arw{float:right;position:relative;left:-30px;top:-100px;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:9pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.rph{margin:20px 0;background-color:#ee5200 !important;}
+
+
+
+#PageList1.widget{display:none;}
+
+.bg{background-color:#ffff99;height:20px;position:relative;top:70px;width:100%;}
+
+
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+
+}
+
+a:link{text-decoration:none;}
+
+#shareIcons{
+
+float:right;
+font-size:10pt;
+position:relative;
+top:0px;
+margin:0 20px 0 0;
+}
+
+
+
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 2px;
+    font-size: 14pt;
+    border: 2px solid #434343;
+    cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+
+.dropdown {
+    position:absolute;
+    display: inline-block;
+top:25px;left:10px;
+z-index:+5;
+margin: 0 0 0 -140px;
+
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.show {display:block;}
+
+.contentET{
+
+margin:0 auto;
+width:95%;
+}
+
+ 
+
+#main-slider.slider{
+	display:none;
+	
+}
+
+
+
+
+
+#shareIcons{
+
+float:right;
+
+
+background-color: rgba(255, 255, 255, 0);
+margin:0 5px 0 0;
+font-size:8pt !important;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 436px)  and (max-width: 579px){
+
+#HTML4.widget{width:100px;}
+#HTML6.widget{position:absolute;top:40px;left:100px}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:absolute;z-index:+8;top:60px;right:10px;}
+.cntct>span,.cntct> a:link>span{color:brown !important;}
+.tabs-outer{background-color:brown;position:relative;top:-30px;height:70px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:right;display:inline-block;position:relative;top:2px;}
+.myNameTam{float:left;display:inline-block;}
+.hr{display:none;}
+#PageList1.widget{background-image: linear-gradient(#ffff99,khaki)}
+h2{display:none;}
+
+
+
+.clear{display:none;}
+
+.cntct>span{text-align:center;margin:0 auto;width:100%;font-size:10pt;}
+.sub{margin:0 auto;display:inline-block;width:65%;position:relative;top:-20px;}
+
+.fstttl{width:208px;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px;text-align:center;}
+
+.sprttl{width:231px;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px;text-align:center;}
+
+.isprttl>span{font-size:9pt;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:9pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:255px;margin:5px auto;}
+.arw>span{color: white; font-weight: bold; text-align: center;font-size:20pt;}
+.arw{float:right;position:relative;left:-30px;top:-100px;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:9pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:9pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.rph{margin:20px 0;background-color:#ee5200 !important;}
+
+
+
+#PageList1.widget{display:none;}
+
+.bg{background-color:#ffff99;height:20px;position:relative;top:70px;width:100%;}
+
+
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+
+}
+
+a:link{text-decoration:none;}
+
+#shareIcons{
+
+float:right;
+font-size:8pt;
+position:relative;
+top:0px;
+margin:0 20px 0 0;
+}
+
+
+
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 2px;
+    font-size: 14pt;
+    border: 2px solid #434343;
+    cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+
+.dropdown {
+    position:absolute;
+    display: inline-block;
+top:25px;left:25px;
+z-index:+5;
+margin: 0 0 0 -140px;
+
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.show {display:block;}
+
+.contentET{
+
+margin:0 auto;
+width:95%;
+}
+
+ 
+
+#main-slider.slider{
+	width:125px;
+	height: 154px;
+margin:0 0 0 10px;	
+display:inline-block;
+float:left;
+position: relative;
+	
+}
+
+
+.slider-wrapper {
+	width: 125px;
+	height: 154px;
+	
+float:left;
+
+}
+
+.slide {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#shareIcons{
+
+float:right;
+
+
+background-color: rgba(255, 255, 255, 0);
+margin:0 5px 0 0;
+font-size:8pt !important;
+
+}
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 580px) and (max-width: 704px){
+#HTML4.widget{display:none;}
+#HTML6.widget{position:relative;top:-4px;text-align:center;margin:0 auto;z-index:+5;}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:relative;z-index:+8;top:-30px;}
+
+.tabs-outer{background-color:brown;position:relative;top:-30px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:right;display:inline-block;position:relative;top:2px;}
+.myNameTam{float:left;display:inline-block;}
+.hr{display:none;}
+#PageList1.widget{background-image: linear-gradient(#ffff99,khaki)}
+h2{display:none;}
+.PageList ul{position:relative;left:-160px;}
+#PageList1.widget{position:relative;top:77px;height:17px;z-index:+6;width:100%;}
+
+.PageList li.selected {font-size:9pt;font-style:italic;font-style:bold;display:inline;margin:0 3px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;background-color:Linen;}
+.PageList li.selected a{color:red !important;border-bottom:3px solid red;}
+
+.PageList li a{color:#008f12 !important;font-size:9pt;font-style:italic;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;font-style:bold;vertical-align:bottom;}
+
+
+
+.clear{display:none;}
+.bg{display:none;}
+.cntct>span{text-align:center;margin:0 auto;width:100%;}
+.sub{margin:0 auto;display:inline-block;width:57%;}
+
+.fstttl{width:265px;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px;text-align:center;}
+
+.sprttl{width:295px;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px;text-align:center;}
+
+.isprttl>span{font-size:11pt;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:11pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:328px;margin:5px auto;}
+.arw>span{color: white; font-weight: 800; text-align: center;font-size:30pt;}
+.arw>span{color: white; font-weight: 800; text-align: center;font-size:40pt;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:12pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:12pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+
+.rph{margin:20px 0;background-color:#ee5200 !important;}
+
+
+
+
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+}
+
+a:link{text-decoration:none;}
+      
+  
+
+#main-slider.slider{
+	width: 200px;
+	height: 247px;
+margin:0 8px;	
+display:inline-block;
+float:left;
+position: relative;
+top:20px;	
+}
+
+
+.slider-wrapper {
+	width: 200px;
+	height: 247px;
+	
+
+
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#shareIcons{
+
+float:right;
+
+
+background-color: rgba(255, 255, 255, 0);
+margin:0 5px 0 0;
+font-size:10pt !important;
+
+}
+
+#HTML5.widget{display:none;}
+#HTML4.widget{display:none;}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 705px) and (max-width: 761px){
+#HTML4.widget{display:none;}
+#HTML6.widget{position:relative;top:2px;text-align:center;margin:0 auto;z-index:+5;}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:relative;z-index:+8;top:-20px;}
+
+.tabs-outer{background-color:brown;position:relative;top:-30px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:right;display:inline-block;position:relative;top:2px;}
+.myNameTam{float:left;display:inline-block;}
+.hr{display:none;}
+
+
+#PageList1.widget{background-image: linear-gradient(#ffff99,khaki)}
+h2{display:none;}
+.PageList ul{position:relative;left:-150px;}
+#PageList1.widget{position:relative;top:77px;height:17px;z-index:+6;}
+
+.PageList li.selected {font-size:11pt;font-style:italic;font-style:bold;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;background-color:Linen;}
+.PageList li.selected a{color:red !important;border-bottom:3px solid red;}
+
+.PageList li a{color:#008f12 !important;font-size:11pt;font-style:italic;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;font-style:bold;vertical-align:bottom;}
+
+
+
+.clear{display:none;}
+.bg{display:none;}
+.cntct>span{text-align:center;margin:0 auto;width:100%;}
+.sub{margin:0 auto;display:inline-block;width:57%;}
+
+.fstttl{width:336px;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px;text-align:center;}
+
+.sprttl{width:374px;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px;text-align:center;}
+
+.isprttl>span{font-size:13pt;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:13pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:400px;margin:5px auto;}
+.arw{margin:5px 0;float:right;position:relative;top:5px;left:-70px;}
+.arw>span{color: white; font-weight: 800; text-align: center;font-size:30pt;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:13pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.rph{margin:20px 0 20px 11px;background-color:#ee5200 !important;position:relative;left:-5px;}
+
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:13pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+}
+
+a:link{text-decoration:none;}
+      
+
+
+#main-slider.slider{
+	width: 276px;
+	height: 340px;
+margin:0 8px;	
+display:inline-block;
+float:left;
+position: relative;
+top:20px;	
+}
+
+
+.slider-wrapper {
+	width: 276px;
+	height: 340px;
+	
+
+
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#shareIcons{
+
+float:right;
+
+font-size:10pt;
+background-color: rgba(255, 255, 255, 0);
+margin:0 20px 0 0;
+}
+
+#HTML5.widget{display:none;}
+#HTML4.widget{display:none;}
+}
+
+
+
+
+
+@media screen and (min-width: 762px) and (max-width: 810px){
+#HTML4.widget{display:none;}
+#HTML6.widget{position:relative;top:2px;text-align:center;margin:0 auto;z-index:+5;}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:relative;z-index:+8;top:-20px;}
+
+.tabs-outer{background-color:brown;position:relative;top:-30px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:right;display:inline-block;position:relative;top:2px;}
+.myNameTam{float:left;display:inline-block;}
+.hr{display:none;}
+#PageList1.widget{background-image: linear-gradient(#ffff99,khaki)}
+h2{display:none;}
+.PageList ul{position:relative;left:-150px;}
+#PageList1.widget{position:relative;top:76px;height:17px;z-index:+6;}
+
+.PageList li.selected {font-size:12pt;font-style:italic;font-style:bold;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;background-color:Linen;}
+.PageList li.selected a{color:red !important;border-bottom:3px solid red;}
+
+.PageList li a{color:#008f12 !important;font-size:12pt;font-style:italic;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;font-style:bold;vertical-align:bottom;}
+
+
+
+.clear{display:none;}
+.bg{display:none;}
+.cntct>span{text-align:center;margin:0 auto;width:100%;}
+.sub{margin:0 auto;display:inline-block;width:57%;}
+
+.fstttl{width:364px;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px;text-align:center;}
+
+.sprttl{width:405px;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px;text-align:center;}
+
+.isprttl>span{font-size:14pt;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:14pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:430px;margin:5px auto;}
+.arw{margin:5px 0;float:right;position:relative;top:0px;left:-10px;}
+.arw>span{color: white; font-weight: 800; text-align: center;font-size:65pt;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:14pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.rph{margin:20px 0;background-color:#ee5200 !important;position:relative;left:-5px;}
+
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:14pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+}
+
+a:link{text-decoration:none;}
+      
+
+
+#main-slider.slider{
+	width: 290px;
+	height: 358px;
+margin:0 8px;	
+display:inline-block;
+float:left;
+position: relative;
+top:20px;	
+}
+
+
+.slider-wrapper {
+	width: 290px;
+	height: 358px;
+	
+
+
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#shareIcons{
+
+float:right;
+
+font-size:10pt;
+background-color: rgba(255, 255, 255, 0);
+margin:0 20px 0 0;
+}
+
+#HTML5.widget{display:none;}
+#HTML4.widget{display:none;}
+}
+
+
+
+
+
+
+@media screen and (min-width: 811px) and (max-width: 889px){
+#HTML4.widget{display:none;}
+#HTML6.widget{position:relative;top:2px;text-align:center;margin:0 auto;z-index:+5;}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:relative;z-index:+8;top:-20px;}
+
+.tabs-outer{background-color:brown;position:relative;top:-30px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:right;display:inline-block;position:relative;top:2px;}
+.myNameTam{float:left;display:inline-block;}
+.hr{display:none;}
+#PageList1.widget{background-color:#ffff99;}
+h2{display:none;}
+.PageList ul{position:relative;left:-150px;}
+#PageList1.widget{position:relative;top:76px;height:18px;z-index:+6;}
+
+.PageList li.selected {font-size:12pt;font-style:italic;font-style:bold;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;background-color:Linen;}
+.PageList li.selected a{color:red !important;border-bottom:3px solid red;}
+
+.PageList li a{color:#008f12 !important;font-size:12pt;font-style:italic;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;font-style:bold;vertical-align:bottom;}
+
+
+
+.clear{display:none;}
+.bg{display:none;}
+.cntct>span{text-align:center;margin:0 auto;width:100%;}
+.sub{margin:0 auto;display:inline-block;width:59%;}
+
+.fstttl{width:388px;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px;text-align:center;}
+
+.sprttl{width:432px;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px;text-align:center;}
+
+.isprttl>span{font-size:15pt;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:15pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:479px;margin:5px auto;}
+.arw{margin:5px 0;float:right;position:relative;top:0px;}
+.arw>span{color: white; font-weight: 800; text-align: center;font-size:75pt;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:15pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:15pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+
+.rph{margin:20px 0;background-color:#ee5200 !important;position:relative;left:8px;}
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+}
+
+a:link{text-decoration:none;}
+      
+  
+
+#main-slider.slider{
+	width: 290px;
+	height: 358px;
+margin:0 10px;	
+display:inline-block;
+float:left;
+position: relative;
+top:20px;	
+}
+
+
+.slider-wrapper {
+	width: 290px;
+	height: 358px;
+	
+
+
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#shareIcons{
+
+float:right;
+
+font-size:10pt;
+background-color: rgba(255, 255, 255, 0);
+margin:0 20px 0 0;
+}
+
+#HTML5.widget{display:none;}
+#HTML4.widget{display:none;}
+}
+
+
+
+
+
+
+@media screen and (min-width: 890px) and (max-width: 939px){
+#HTML4.widget{display:none;}
+#HTML6.widget{position:relative;top:2px;text-align:center;margin:0 auto;z-index:+5;}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:relative;z-index:+8;top:-20px;}
+
+.tabs-outer{background-color:brown;position:relative;top:-30px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:right;display:inline-block;position:relative;top:2px;}
+.myNameTam{float:left;display:inline-block;}
+.hr{display:none;}
+#PageList1.widget{background-image: linear-gradient(#ffff99,khaki)}
+h2{display:none;}
+.PageList ul{position:relative;left:-150px;}
+#PageList1.widget{position:relative;top:76px;height:18px;z-index:+6;}
+
+.PageList li.selected {font-size:12pt;font-style:italic;font-style:bold;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;background-color:Linen;}
+.PageList li.selected a{color:red !important;border-bottom:3px solid red;}
+
+.PageList li a{color:#008f12 !important;font-size:12pt;font-style:italic;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;font-style:bold;vertical-align:bottom;}
+
+
+
+.clear{display:none;}
+.bg{display:none;}
+.cntct>span{text-align:center;margin:0 auto;width:100%;}
+.sub{margin:0 auto;display:inline-block;width:59%;}
+
+.fstttl{width:426px;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px;text-align:center;}
+
+.sprttl{width:473px;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px;text-align:center;}
+
+.isprttl>span{font-size:15pt;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:15pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:520px;margin:5px auto;}
+.arw{margin:5px 0;float:right;position:relative;top:0px;}
+.arw>span{color: white; font-weight: 800; text-align: center;font-size:75pt;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:15pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:17pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+
+.rph{margin:20px 0 20px 10px;background-color:#ee5200 !important;}
+
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+}
+
+
+
+
+
+a:link{text-decoration:none;}
+     
+   ol { counter-reset: item; }
+        ol li { display: block; }
+        ol li:before {
+            content: counter(item) ". ";
+            counter-increment: item;
+            color: #444444;
+font-weight: bold;
+
+        }
+
+#main-slider.slider{
+	width: 325px;
+	height: 393px;
+margin:0 13px;	
+display:inline-block;
+float:left;
+position: relative;
+top:20px;	
+}
+
+
+.slider-wrapper {
+	width: 325px;
+	height: 393px;
+	
+
+
+}
+
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#shareIcons{
+
+float:right;
+font-size:10pt;
+
+background-color: rgba(255, 255, 255, 0);
+margin:0 20px 0 0;
+}
+
+#HTML5.widget{display:none;}
+#HTML4.widget{display:none;}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 940px){
+#HTML4.widget{display:none;}
+#HTML6.widget{position:relative;top:2px;text-align:center;margin:0 auto;z-index:+5;}
+#HTML3.widget{background-color:rgb(255,255,255,0);
+position:relative;z-index:+8;top:-20px;}
+
+.tabs-outer{background-color:brown;position:relative;top:-30px;}
+
+
+.myName{background-color:rgb(255,255,255,0);}
+.myNameEng{float:right;display:inline-block;position:relative;top:2px;}
+.myNameTam{float:left;display:inline-block;}
+.hr{display:none;}
+#PageList1.widget{background-image: linear-gradient(#ffff99,khaki)}
+h2{display:none;}
+.PageList ul{position:relative;left:-150px;}
+#PageList1.widget{position:relative;top:76px;height:19px;z-index:+6;}
+
+.PageList li.selected {font-size:12pt;font-style:italic;font-style:bold;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;background-color:Linen;}
+.PageList li.selected a{color:red !important;border-bottom:3px solid red;}
+
+.PageList li a{color:#008f12 !important;font-size:12pt;font-style:italic;display:inline;margin:0 5px;font-family: 'Noto Sans KR', sans-serif;text-align:center;text-decoration:none !important;font-style:bold;vertical-align:bottom;}
+
+
+
+.clear{display:none;}
+.bg{display:none;}
+.cntct>span{text-align:center;margin:0 auto;width:100%;}
+.sub{margin:0 auto;display:inline-block;width:59%;}
+
+.fstttl{width:450px;background-color: darkmagenta; border-radius: 13px; margin: 15px auto; text-align: center;}
+
+.ifstttl{margin:25px auto;}
+
+.sprttl{width:500px;background-color: #b10000; border-radius: 15px; margin: 5px auto; text-align: center; vertical-align: middle;}
+.isprttl{margin:25px auto;}
+
+.isprttl>span{font-size:17pt;margin:15px auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+.ifstttl>span{font-size:17pt; auto;font-weight: 800;font-family: 'Arima Madurai', cursive;color:white;line-height:200%;}
+
+
+.bttl{margin:0 auto;text-align:center;background-color: #ee5200 !important; border-radius: 15px;width:550px;margin:5px auto;}
+.arw{margin:5px 0;float:right;position:relative;top:-210px;left:15px;}
+.arw>span{color: white; font-weight: 800; text-align: center;font-size:110pt;}
+
+.riph>span{color: white; font-weight: 600;  text-align: center;font-size:17pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.riph>a:link>span{color: white; font-weight: 600;  text-align: center;font-size:17pt;background-color:#ee5200 !important;font-family: 'Arima Madurai', cursive;line-height:200%;}
+
+.rph{margin:20px 0 20px 10px;background-color:#ee5200 !important;}
+
+.form{
+position:relative;
+
+margin:0 auto; 
+width: 90%;
+border:3px solid purple;
+
+
+}
+
+a:link{text-decoration:none;}
+      
+
+
+#main-slider.slider{
+	width:345px;
+	height: 426px;
+margin:0 15px;	
+display:inline-block;
+float:left;
+position: relative;
+top:20px;	
+}
+
+
+.slider-wrapper {
+	width:345px;
+	height: 426px;
+	
+
+
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#shareIcons{
+
+float:right;
+font-size:10pt;
+
+background-color: rgba(255, 255, 255, 0);
+margin:0 20px 0 0;
+}
+
+#HTML5.widget{display:none;}
+#HTML4.widget{display:none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clr{clear:both;
+display:none;}
+#crosscol.tabs.section,#crosscol-overflow.tabs.section{border:0;padding:0;margin:0}
+
+
+#mainc.main.section,.mainMain,.mainMainMain,.column-center-inner,.column-center-outer,.columns-inner,fauxcolumn-outer.fauxcolumn-center-outer,.columns.fauxcolumns,.post-body.entry-content,blog-posts.hfeed.fauxcolumn-outer.fauxcolumn-left-outer,.fauxcolumn-inner.fauxcolumn-left-inner,.fauxborder-left.main-fauxborder-left,.main-outer{padding:0;margin:0;}
